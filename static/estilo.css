@@ -4,11 +4,11 @@ body{
 }
 
 h1, h2, a{
-    color: #377ba8
+    color: #377BA8
 }
 
 h1{
-    border-bottom: 2px solid #eee;    
+    border-bottom: 2px solid #eee;
 }
 
 h2{
@@ -32,13 +32,13 @@ h2{
 }
 
 .flash{
-    background-color: #cee5f5;
+    background-color: #CEE5F5;
     padding: 0.5em;
-    border: 1px solid #AACBE2;   
+    border: 1px solid #AACBE2;
 }
 
 .erro{
-    background-color: #f0d6d6;
+    background-color: #F0D6D6;
     padding: 0.5em;
 }
 
@@ -46,7 +46,9 @@ h2{
     font-size: 0.9em;
     border-bottom: 1px solid #ccc;
 }
-
 .ins-entrada dl{
     font-weight: bold;
 }
+.entradas       { list-style: none; margin: 0; padding: 0; }
+.entradas li    { margin: 0.8em 1.2em; }
+.entradas li h2 { margin-left: -1em; }
